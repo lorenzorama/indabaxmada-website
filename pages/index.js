@@ -33,8 +33,7 @@ const DeepLearningIndabaPage = () => {
           </h2>
 
           <p className="date">
-            <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> 13 - 14 - 15 DEC
-          </p>
+            <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> 13 - 14 - 15 DEC 2024</p>
 
           <p className="location">
             <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> AELI of Gate Company - UST-IO University - Route Nanisana - Antananarivo
