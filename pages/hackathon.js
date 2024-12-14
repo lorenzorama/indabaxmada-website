@@ -28,25 +28,19 @@ const IdeathonPage = () => {
           <h2 className="mainTitle">
             <span className="highlight">HACKATHON !</span>
           </h2>
-
-          <p className="description">
-            Présentez vos idées de solutions innovantes basées sur l'IA pour transformer et révolutionner l'agriculture malagasy !
-          </p>
-
           <h3 className="theme">
-            Thème : <span className="highlight">AGENTS IA pour l'agriculture à Madagascar</span>
+            Thème : <span className="highlight">Storm Nowcasting Hackathon - IndabaX Madagascar 24</span>
           </h3>
 
           <button 
             className="stayTuned"
-            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeg73UkAaQwc6oDjR2z7gLNrkqpDG7_IDCVDDO9jJjsXTqF4A/viewform?usp=sf_link', '_blank')}
+            onClick={() => window.open('https://www.kaggle.com/competitions/hackathon-DL-IndabaX-MDG-2024/data', '_blank')}
           >
-            Je m'inscris
+            Je hack
           </button>
 
           <div className="details">
-            <p>Equipe de 4 personnes et pitch de 15 min par équipe</p>
-            <p className="bonus">T-shirt IndabaX Mada pour les 5 premières équipes inscrites</p>
+            <p>Nowcasting Thunderstorms in Nosy Be with Machine Learning</p>
           </div>
           
 
