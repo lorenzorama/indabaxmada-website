@@ -8,8 +8,8 @@ const AboutPage = () => {
   return (
     <>
       <Head>
-        <title>À propos - IndabaX Madagascar 2024</title>
-        <meta name="description" content="À propos d'IndabaX Madagascar 2024" />
+        <title>À propos - IndabaX Madagascar 2025</title>
+        <meta name="description" content="À propos d'IndabaX Madagascar 2025" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="background">

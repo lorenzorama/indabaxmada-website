@@ -1,6 +1,6 @@
-# IndabaX Madagascar 2024
+# Deep Learning Indaba Madagascar 2025
 
-This is the website for the IndabaX Madagascar 2024 event.
+This is the website for the Deep Learning Indaba Madagascar 2025 event.
 
 ## Getting Started
 

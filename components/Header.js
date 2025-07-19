@@ -50,6 +50,7 @@ const Header = () => {
             <li><Link href="/ideathon" className={isActive('/ideathon') ? 'active' : ''}>Ideathon</Link></li>
             <li><Link href="/hackathon" className={isActive('/hackathon') ? 'active' : ''}>Hackathon</Link></li>
             <li><Link href="/poster-sessions" className={isActive('/poster-sessions') ? 'active' : ''}>Poster sessions</Link></li>
+            <li><Link href="/past-editions" className={isActive('/past-editions') ? 'active' : ''}>Past Editions</Link></li>
             <li><Link href="/about" className={isActive('/about') ? 'active' : ''}>About</Link></li>
           </ul>
         </nav>
