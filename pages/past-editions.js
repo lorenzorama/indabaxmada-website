@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarAlt, faMapMarkerAlt, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 const PastEditionsPage = () => {
   return (
@@ -33,10 +32,10 @@ const PastEditionsPage = () => {
                 <strong>Thème:</strong> L'IA pour le développement de Madagascar
               </p>
               <p className="edition-date">
-                <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> 13 - 14 - 15 Décembre 2024
+                13 - 14 - 15 Décembre 2024
               </p>
               <p className="edition-location">
-                <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> Rubik Services, Antananarivo
+                Rubik Services, Antananarivo
               </p>
               
               <div className="edition-activities">
@@ -49,7 +48,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                    Voir l'Ideathon <FontAwesomeIcon icon={faExternalLinkAlt} size="sm" />
+                                         Voir l'Ideathon
                   </a>
                 </div>
                 
@@ -61,7 +60,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                    Voir le Hackathon <FontAwesomeIcon icon={faExternalLinkAlt} size="sm" />
+                                         Voir le Hackathon
                   </a>
                 </div>
               </div>
@@ -71,13 +70,13 @@ const PastEditionsPage = () => {
             <div className="edition-card">
               <h2 className="edition-year">IndabaX Madagascar 2023</h2>
               <p className="edition-theme">
-                <strong>Thème:</strong> Intelligence Artificielle et Innovation
+                <strong>Thème:</strong> Madagascar entre dans l'ère de l'IA
               </p>
               <p className="edition-date">
-                <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> Décembre 2023
+                Décembre 2023
               </p>
               <p className="edition-location">
-                <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> Antananarivo, Madagascar
+                Antananarivo, Madagascar
               </p>
             </div>
 
@@ -88,10 +87,10 @@ const PastEditionsPage = () => {
                 <strong>Thème:</strong> Démocratiser l'IA à Madagascar
               </p>
               <p className="edition-date">
-                <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> Décembre 2022
+                Décembre 2022
               </p>
               <p className="edition-location">
-                <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> Antananarivo, Madagascar
+                Antananarivo, Madagascar
               </p>
             </div>
           </div>
@@ -132,14 +131,6 @@ const PastEditionsPage = () => {
         .edition-date, .edition-location {
           color: var(--text-secondary);
           margin-bottom: 0.5rem;
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
-        }
-
-        .edition-date svg, .edition-location svg {
-          width: 1rem !important;
-          height: 1rem !important;
         }
 
         .edition-activities {
@@ -184,9 +175,7 @@ const PastEditionsPage = () => {
           text-decoration: underline;
         }
 
-        .activity-link svg {
-          margin-left: 0.3rem;
-        }
+
 
         @media (max-width: 768px) {
           .edition-card {
