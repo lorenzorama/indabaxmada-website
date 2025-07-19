@@ -13,7 +13,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -72,15 +72,21 @@
 .headerNav ul {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
+}
+
+.headerNav li {
+  white-space: nowrap;
 }
 
 .headerNav a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  font-size: 14px;
+  white-space: nowrap;
 }
 
 .headerNav a.active {
