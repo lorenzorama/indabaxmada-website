@@ -38,8 +38,26 @@ const PastEditionsPage = () => {
                 Rubik Services, Antananarivo
               </p>
               
-              <div className="edition-activities">
+                            <div className="edition-activities">
                 <h3>Activités principales:</h3>
+                <div className="activity-item">
+                  <h4>Keynotes</h4>
+                  <p>Conférences inspirantes par des experts en IA</p>
+                  <p>Thèmes: IA et Climat, PlantVillage, et plus encore</p>
+                </div>
+
+                <div className="activity-item">
+                  <h4>Workshops</h4>
+                  <p>Ateliers pratiques et sessions interactives</p>
+                  <p>Formation hands-on en machine learning et IA</p>
+                </div>
+
+                <div className="activity-item">
+                  <h4>Posters</h4>
+                  <p>Présentations de recherches et projets innovants</p>
+                  <p>Le gagnant représentera Madagascar au Deep Learning Indaba 2025</p>
+                </div>
+
                 <div className="activity-item">
                   <h4>Ideathon</h4>
                   <p>Thème: AGENTS IA pour l'agriculture à Madagascar</p>
@@ -48,7 +66,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                                         Voir l'Ideathon
+                    Voir l'Ideathon
                   </a>
                 </div>
                 
@@ -60,7 +78,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                                         Voir le Hackathon
+                    Voir le Hackathon
                   </a>
                 </div>
               </div>
