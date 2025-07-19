@@ -27,9 +27,58 @@ const Footer = () => {
         </div>
         
         <div className="text-center">
+          <div className="social-links mb-4">
+            <a href="https://www.facebook.com/profile.php?id=100093269167333" target="_blank" rel="noopener noreferrer" className="social-link">
+              Facebook
+            </a>
+            <span className="separator">•</span>
+            <a href="https://www.linkedin.com/company/indabax-madagascar/" target="_blank" rel="noopener noreferrer" className="social-link">
+              LinkedIn
+            </a>
+            <span className="separator">•</span>
+            <a href="https://x.com/IndabaXMada" target="_blank" rel="noopener noreferrer" className="social-link">
+              Twitter/X
+            </a>
+          </div>
           <p className="text-sm">IndabaX Madagascar Community - indabaxmadagascar@gmail.com</p>
         </div>
       </div>
+
+      <style jsx>{`
+        .social-links {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 1rem;
+          flex-wrap: wrap;
+        }
+
+        .social-link {
+          color: #e9ecef;
+          text-decoration: none;
+          transition: color 0.3s ease;
+          font-size: 0.875rem;
+        }
+
+        .social-link:hover {
+          color: #ffd166;
+        }
+
+        .separator {
+          color: #6c757d;
+          font-size: 0.875rem;
+        }
+
+        @media (max-width: 480px) {
+          .separator {
+            display: none;
+          }
+          
+          .social-links {
+            gap: 1.5rem;
+          }
+        }
+      `}</style>
     </footer>
   );
 };

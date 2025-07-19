@@ -19,6 +19,12 @@ const AboutPage = () => {
       <Header />
       <div className="about-section">
         <h1>À propos d'IndabaX Madagascar</h1>
+        
+        <div className="organizers-photo">
+          <img src="/sary.png" alt="Organisateurs IndabaX Madagascar" />
+          <p className="photo-caption">L'équipe organisatrice d'IndabaX Madagascar</p>
+        </div>
+        
         <div className="details">
           <p>IndabaX Madagascar est fier de faire partie de la famille <a href="https://deeplearningindaba.com" target="_blank" rel="noopener noreferrer">Deep Learning Indaba</a>, servant d'extension malgache à cette remarquable communauté africaine d'IA.</p>
           
@@ -55,6 +61,35 @@ const AboutPage = () => {
         </div>
       </div>
       <Footer />
+
+      <style jsx>{`
+        .organizers-photo {
+          margin: 2rem auto 3rem;
+          text-align: center;
+          max-width: 800px;
+        }
+
+        .organizers-photo img {
+          width: 100%;
+          height: auto;
+          border-radius: 15px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .photo-caption {
+          margin-top: 1rem;
+          font-style: italic;
+          color: var(--text-secondary);
+          font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+          .organizers-photo {
+            margin: 1.5rem auto 2rem;
+            padding: 0 1rem;
+          }
+        }
+      `}</style>
     </>
   );
 };

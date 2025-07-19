@@ -255,7 +255,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -286,16 +286,18 @@ body {
 }
 
 .headerNav li {
-  margin: 0 15px;
+  margin: 0 8px;
+  white-space: nowrap;
 }
 
 .headerNav a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   transition: color 0.3s ease;
-  padding: 5px 10px;
+  padding: 5px 8px;
   border-radius: 5px;
+  white-space: nowrap;
 }
 
 .headerNav a:hover {

@@ -24,8 +24,6 @@ const DeepLearningIndabaPage = () => {
 
       <main className="content content-shifted">
         <div className="container">
-          <div className="year">2025</div>
-
           <h2 className="mainTitle">
             L'<span className="highlight">IA</span> EN ACTION POUR<br/>
             RÉVOLUTIONNER L'<span className="highlight">ÉDUCATION</span><br/>

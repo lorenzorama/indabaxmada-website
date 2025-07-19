@@ -34,12 +34,45 @@ const PastEditionsPage = () => {
               <p className="edition-date">
                 13 - 14 - 15 Décembre 2024
               </p>
-              <p className="edition-location">
+                            <p className="edition-location">
                 Rubik Services, Antananarivo
               </p>
               
+              <div className="photos-link">
+                <a href="https://www.facebook.com/profile.php?id=100093269167333&sk=photos" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   className="activity-link">
+                  📸 Voir les photos de l'événement
+                </a>
+              </div>
+              
               <div className="edition-activities">
                 <h3>Activités principales:</h3>
+                <div className="activity-item">
+                  <h4>Keynotes</h4>
+                  <p>Conférences inspirantes par des experts en IA</p>
+                  <p>Thèmes: IA et Climat, PlantVillage, et plus encore</p>
+                  <a href="https://www.facebook.com/photo.php?fbid=463878013397834&set=pb.100093269167333.-2207520000&type=3" 
+                     target="_blank" 
+                     rel="noopener noreferrer"
+                     className="activity-link">
+                    Voir les intervenants
+                  </a>
+                </div>
+
+                <div className="activity-item">
+                  <h4>Workshops</h4>
+                  <p>Ateliers pratiques et sessions interactives</p>
+                  <p>Formation hands-on en machine learning et IA</p>
+                </div>
+
+                <div className="activity-item">
+                  <h4>Posters</h4>
+                  <p>Présentations de recherches et projets innovants</p>
+                  <p>Le gagnant représentera Madagascar au Deep Learning Indaba 2025</p>
+                </div>
+
                 <div className="activity-item">
                   <h4>Ideathon</h4>
                   <p>Thème: AGENTS IA pour l'agriculture à Madagascar</p>
@@ -48,7 +81,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                                         Voir l'Ideathon
+                    Voir l'Ideathon
                   </a>
                 </div>
                 
@@ -60,7 +93,7 @@ const PastEditionsPage = () => {
                      target="_blank" 
                      rel="noopener noreferrer"
                      className="activity-link">
-                                         Voir le Hackathon
+                    Voir le Hackathon
                   </a>
                 </div>
               </div>
@@ -170,12 +203,28 @@ const PastEditionsPage = () => {
           transition: all 0.3s ease;
         }
 
-        .activity-link:hover {
+                .activity-link:hover {
           color: var(--text-primary);
           text-decoration: underline;
         }
 
+        .photos-link {
+          margin: 1.5rem 0;
+          text-align: center;
+        }
 
+        .photos-link .activity-link {
+          display: inline-block;
+          padding: 0.5rem 1.5rem;
+          background: rgba(255, 209, 102, 0.1);
+          border: 1px solid var(--accent-color);
+          border-radius: 25px;
+          font-size: 1.1rem;
+        }
+
+        .photos-link .activity-link:hover {
+          background: rgba(255, 209, 102, 0.2);
+        }
 
         @media (max-width: 768px) {
           .edition-card {
