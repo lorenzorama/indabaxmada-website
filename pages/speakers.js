@@ -8,8 +8,8 @@ const SpeakersPage = () => {
   return (
     <>
       <Head>
-        <title>Speakers - IndabaX Madagascar 2024</title>
-        <meta name="description" content="Speakers for IndabaX Madagascar 2024" />
+        <title>Speakers - IndabaX Madagascar 2025</title>
+        <meta name="description" content="Speakers for IndabaX Madagascar 2025" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="background">

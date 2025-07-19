@@ -8,7 +8,7 @@ export const CountdownProvider = ({ children }) => {
   const [countdown, setCountdown] = useState('');
 
   useEffect(() => {
-    const eventDate = new Date('2024-12-13T00:00:00'); // Set the target event date
+    const eventDate = new Date('2025-09-19T00:00:00'); // Set the target event date
     
     const updateCountdown = () => {
       const now = new Date();

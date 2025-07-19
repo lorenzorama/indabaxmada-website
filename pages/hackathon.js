@@ -6,12 +6,12 @@ import { faCalendarAlt, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons
 
 
 
-const IdeathonPage = () => {
+const HackathonPage = () => {
   return (
     <>
       <Head>
-        <title>IndabaX Madagascar 2024 - Ideathon</title>
-        <meta name="description" content="L'IA pour le développement de Madagascar, annual." />
+        <title>IndabaX Madagascar 2025 - Hackathon</title>
+        <meta name="description" content="L'IA en action pour révolutionner l'éducation et la science à Madagascar" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
       </Head>
@@ -28,26 +28,17 @@ const IdeathonPage = () => {
           <h2 className="mainTitle">
             <span className="highlight">HACKATHON !</span>
           </h2>
-          <h3 className="theme">
-            Thème : <span className="highlight">Storm Nowcasting Hackathon - IndabaX Madagascar 24</span>
-          </h3>
-
-          <button 
-            className="stayTuned"
-            onClick={() => window.open('https://www.kaggle.com/competitions/hackathon-DL-IndabaX-MDG-2024/data', '_blank')}
-          >
-            Je hack
-          </button>
-
-          <div className="details">
-            <p>Nowcasting Thunderstorms in Nosy Be with Machine Learning</p>
+          
+          <div className="comingSoon">
+            <p>Coming Soon</p>
+            <p className="subtext">Les détails du Hackathon 2025 seront bientôt disponibles</p>
           </div>
           
 
           <p className="date">
-            <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> 13 - 14 - 15 DEC 2024</p>
+            <FontAwesomeIcon icon={faCalendarAlt} size="sm" /> 19 - 20 - 21 SEPTEMBRE 2025</p>
           <p className="location">
-            <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> Rubik Services - Lot III Q 60 Bis Andoharano Tsimbazaza, Antananarivo 101
+            <FontAwesomeIcon icon={faMapMarkerAlt} size="sm" /> Lieu à déterminer
           </p>
 
         </div>
@@ -58,4 +49,4 @@ const IdeathonPage = () => {
   );
 };
 
-export default IdeathonPage;
+export default HackathonPage;

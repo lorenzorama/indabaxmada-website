@@ -8,8 +8,8 @@ const PosterSessionsPage = () => {
   return (
     <>
       <Head>
-        <title>Poster Sessions - IndabaX Madagascar 2024</title>
-        <meta name="description" content="Poster Sessions for IndabaX Madagascar 2024" />
+        <title>Poster Sessions - IndabaX Madagascar 2025</title>
+        <meta name="description" content="Poster Sessions for IndabaX Madagascar 2025" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
